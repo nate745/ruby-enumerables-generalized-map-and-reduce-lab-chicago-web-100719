@@ -16,8 +16,8 @@ def reduce(x, starting_point= 0 )
     aggregate = x[0]
     i = 1
   end
-  while i < s.length
-    aggregate = yield(aggregate, s[i])
+  while i < x.length
+    aggregate = yield(aggregate, x[i])
     i += 1
   end
   aggregate
