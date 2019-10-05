@@ -8,7 +8,7 @@ def map(array)
   new
 end
 
-def reduce(x, starting_point= 0 )
+def reduce(x, starting_point= nil )
   if starting_point
     aggregate = starting_point
     i = 0
